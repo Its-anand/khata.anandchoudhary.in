@@ -1,7 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/anandcho/public_html/
+    - export DEPLOYPATH=/home/anandcho/khata.anandchoudhary.in/
     - /bin/cp -R * $DEPLOYPATH
     - /bin/cp * $DEPLOYPATH
-
