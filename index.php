@@ -261,12 +261,16 @@ session_start();
 
        @media screen and (max-width:51rem)
        {
-        table {
-    width: 92%;
-}
-#myInput{
-    width: 75%;
-}
+          table {
+            width: 92%;
+          }
+          #myInput{
+              width: 75%;
+          }
+          #logo_holder {
+              width: 100%;
+              margin: 3rem 0 1.5rem 0;
+          }
        }
        @media screen and (max-width:20rem)
        {
