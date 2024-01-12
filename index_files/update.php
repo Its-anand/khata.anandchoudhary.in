@@ -19,7 +19,6 @@ if(!isset($_SESSION['logged_in']))
         {
             echo"
             <script>
-            alert('Word has been updated');
             window.location.href='../index.php';
             </script>
             "; 

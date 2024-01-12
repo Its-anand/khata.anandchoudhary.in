@@ -87,9 +87,7 @@ session_start();
     /* filter: invert(1); */
     opacity: 0.9;
     font-size: 2rem;
-    font-weight: bold;
     text-align: center;
-
         }
 /*search bar css start*/
         #myInput
@@ -307,7 +305,7 @@ session_start();
       ?>
     </header>
     <main>
-    <DIV id="logo_holder" >Khatabook</DIV>
+    <h1 id="logo_holder" >Khatabook</h1>
     <input placeholder="Search any word.." id='myInput' onkeyup="searchFun()"/>
         
         <?php

@@ -18,7 +18,6 @@ $result = mysqli_query($con,$query);
             $query = mysqli_query($con, $deletequery);
             echo"
             <script>
-            alert('Word has been removed');
             window.location.href='../index.php';
             </script>
             "; 
