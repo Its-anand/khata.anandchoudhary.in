@@ -1,10 +1,11 @@
 <?php
 $server = "localhost";
- $username = "anandcho_anand";
- $password = "bw@44@k7Mu@RFRF";
-// $username = "root";
+// $username = "anandcho_anand";
 // $password = "bw@44@k7Mu@RFRF";
-$db = "anandcho_khata";
+//$db = "anandcho_khata";
+ $username = "root";
+ $password = "bw@44@k7Mu@RFRF";
+ $db = "anandcho_databases";
 
 $con = new mysqli($server, $username, $password, $db);
 mysqli_set_charset($con, "utf8");

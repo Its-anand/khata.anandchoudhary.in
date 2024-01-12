@@ -111,7 +111,7 @@ session_start();
             <div class="leftDiv">
             <h2 class='heading'>Admin Login</h2>
                 <form method="post">
-                    <input type="text" placeholder="Email *" name="username" class="form_input" require>
+                    <input type="text" value="do4anand@gmail.com" placeholder="Email *" name="username" class="form_input" require>
                     <input type="password" placeholder="Password *" name="password" class="form_input" require>
                     <input type="submit" name="Signin" value="Submit" id="submit_btn" class="form_btn">
                     <a class="form_btn" href='../index.php' id="other_btn">Go Home</a><br><br>
